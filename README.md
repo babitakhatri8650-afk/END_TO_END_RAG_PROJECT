@@ -84,7 +84,7 @@ python3 eval_harness.py
 
 ## See it in action
 
-The included demo video shows the assistant handling four different kinds of questions in
+The included demo video [Demo](demo.mp4) shows the assistant handling four different kinds of questions in
 one session: a documentation question, a question needing both code and the database, a
 database-only question, and a question it correctly refuses to answer because it's outside
 what it knows (like asking about the weather).
