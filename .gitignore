@@ -1,0 +1,28 @@
+# --- Secrets: never commit these ---
+config.py
+*.env
+.env
+**/api_key*
+
+# --- Generated data (large, rebuildable via setup scripts — don't commit) ---
+config.py
+rag_data/
+chroma_store/
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS / editor cruft ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log

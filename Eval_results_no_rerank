@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "config": "Vectory_only_no_rerank",
+    "router_accuracy": 0.83,
+    "avg_faithfulness": 3.75,
+    "avg_relevancy": 3.33,
+    "n_questons": 6
+  },
+  "per_question": [
+    {
+      "question": "How does the requests library handle connection timeouts?",
+      "router_correct": 1,
+      "faithfulness": 4,
+      "relevancy": 4
+    },
+    {
+      "question": "How many customers are in the database?",
+      "router_correct": 1,
+      "faithfulness": 4,
+      "relevancy": 4
+    },
+    {
+      "question": "What does the merge_setting function do, and how many albums does artist AC/DC have?",
+      "router_correct": 1,
+      "faithfulness": 3,
+      "relevancy": 3
+    },
+    {
+      "question": "What is FastAPI's approach to dependency injection?",
+      "router_correct": 1,
+      "faithfulness": 4,
+      "relevancy": 4
+    },
+    {
+      "question": "List the 5 most expensive tracks in the store.",
+      "router_correct": 0,
+      "faithfulness": null,
+      "relevancy": 3
+    },
+    {
+      "question": "What's the weather like today?",
+      "router_correct": 1,
+      "faithfulness": null,
+      "relevancy": 2
+    }
+  ]
+}
